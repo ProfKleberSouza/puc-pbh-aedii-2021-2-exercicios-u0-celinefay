@@ -1,8 +1,11 @@
 #include <stdio.h>
 
-int main() {
-   int n1, n2;
-   scanf("%i %i", &n1, &n2);
-   printf("SOMA = %i\n", n1+n2);
-   return 0;
+int main(void) {
+
+  int n1, n2, SOMA;
+  scanf("%d %d", &n1, &n2);
+  SOMA = n1 + n2;
+  printf("SOMA = %d\n", SOMA);
+
+  return 0;
 }
