@@ -3,7 +3,7 @@
 int main(void) {
   float T, V, R, D, L; // time, average speed, average yield, distance, liter  
 
-  printf(" \n");
+  //printf(" \n");
   scanf("%f %f %f", &T, &V, &R);
 
   D = T * V;  //distance 
