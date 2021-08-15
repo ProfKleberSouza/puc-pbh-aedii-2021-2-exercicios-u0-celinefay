@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+
 //int n;
 int main(void) {
     int n = 0;
@@ -31,26 +31,5 @@ int main(void) {
 
     return 0;
 }
-*/
-int main(int argc, char *argv[]){
-    int num = 0;
-
-    scanf("%d", &num);
-
-    if(num % 2 == 0){
-        if(num > 0)
-            printf("NUMERO PAR POSITIVO");
-        else
-            printf("NUMERO PAR NEGATIVO");
-    }
-    else{
-        if(num > 0)
-            printf("NUMERO IMPAR POSITIVO");
-        else
-            printf("NUMERO IMPAR NEGATIVO");
-    }
-    return 0;
-}
-
 
 
